@@ -14,7 +14,10 @@ int main(void)
 	{
 		q = (ch == 'q');
 		e = (ch == 'e');
-		if (!q || !e)
+		if (q || e)
+		{
+			ch = '';
+		} else
 		{
 			putchar(ch);
 		}
