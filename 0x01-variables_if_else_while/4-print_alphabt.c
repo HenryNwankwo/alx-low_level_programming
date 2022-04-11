@@ -16,7 +16,7 @@ int main(void)
 		e = (ch == 'e');
 		if (q || e)
 		{
-			ch = '\0';
+			continue;
 		} else
 		{
 			putchar(ch);
