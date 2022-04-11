@@ -3,8 +3,8 @@
 /* more headers goes there */
 #include <stdio.h>
 /**
- * The main function entry point
- * It prints if the number is a positive or negative number
+ * main - entry point
+ * return: always 0 success 
 */
 int main(void)
 {
@@ -16,10 +16,10 @@ int main(void)
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
-	}else if (n == 0)
+	} else if (n == 0)
 	{
 		printf("%d is zero\n", n);
-	}else
+	} else
 	{
 		printf("%d is negative\n", n);
 	}
